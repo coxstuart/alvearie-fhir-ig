@@ -1,0 +1,102 @@
+{
+  "ImplementationGuide/alvearie.fhir.ig": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/cdm-appointment": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/process-meta": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/ingestion-batch-id": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/process-client-id": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-name": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-organization": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-record-id": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-timestamp": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-type": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/process-version": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-data-model-version": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-event-timestamp": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-event-trigger": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-file-id": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-record-id": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/source-record-type": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/tenant-id": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/appointment-cancellation-reason": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/identifier-type": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/source-classification-values": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/appointment-cancellation-reason": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/identifier-type": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/process-meta-primary-or-secondary": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Appointment/AppointmentExample": {
+    "errors": 3,
+    "warnings": 0
+  }
+}
