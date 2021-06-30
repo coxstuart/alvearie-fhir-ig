@@ -1,0 +1,2257 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "wh.cdm.fhir",
+      "url": "http://ibm.com/fhir/cdm/ImplementationGuide/wh.cdm.fhir",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ImplementationGuide-wh.cdm.fhir.json",
+      "resourceType": "ImplementationGuide",
+      "id": "wh.cdm.fhir",
+      "url": "http://ibm.com/fhir/cdm/ImplementationGuide/wh.cdm.fhir",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "StructureDefinition-cdm-address.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-address",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-address",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Address"
+    },
+    {
+      "filename": "StructureDefinition-cdm-appointment.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-appointment",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-appointment",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Appointment"
+    },
+    {
+      "filename": "StructureDefinition-cdm-careplan.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-careplan",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-careplan",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "CarePlan"
+    },
+    {
+      "filename": "StructureDefinition-cdm-communication.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-communication",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-communication",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Communication"
+    },
+    {
+      "filename": "StructureDefinition-cdm-communication-contact-point.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-communication-contact-point",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-communication-contact-point",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "ContactPoint"
+    },
+    {
+      "filename": "StructureDefinition-cdm-communication-request.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-communication-request",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-communication-request",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "CommunicationRequest"
+    },
+    {
+      "filename": "StructureDefinition-cdm-condition.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-condition",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-condition",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Condition"
+    },
+    {
+      "filename": "StructureDefinition-cdm-contact-point.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-contact-point",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-contact-point",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "ContactPoint"
+    },
+    {
+      "filename": "StructureDefinition-cdm-coverage.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-coverage",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-coverage",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Coverage"
+    },
+    {
+      "filename": "StructureDefinition-cdm-detected-issue.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-detected-issue",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-detected-issue",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "DetectedIssue"
+    },
+    {
+      "filename": "StructureDefinition-cdm-eligibility.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-eligibility",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-eligibility",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Bundle"
+    },
+    {
+      "filename": "StructureDefinition-cdm-eligibility-insurance-plan.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-eligibility-insurance-plan",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-eligibility-insurance-plan",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "InsurancePlan"
+    },
+    {
+      "filename": "StructureDefinition-cdm-encounter.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-encounter",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-encounter",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Encounter"
+    },
+    {
+      "filename": "StructureDefinition-cdm-identifier.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-identifier",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-identifier",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Identifier"
+    },
+    {
+      "filename": "StructureDefinition-cdm-library.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-library",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-library",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Library"
+    },
+    {
+      "filename": "StructureDefinition-cdm-location.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-location",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-location",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Location"
+    },
+    {
+      "filename": "StructureDefinition-cdm-match-location.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-match-location",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-match-location",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Location"
+    },
+    {
+      "filename": "StructureDefinition-cdm-match-patient.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-match-patient",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-match-patient",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Patient"
+    },
+    {
+      "filename": "StructureDefinition-cdm-match-practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-match-practitioner",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-match-practitioner",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Practitioner"
+    },
+    {
+      "filename": "StructureDefinition-cdm-observation.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-observation",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-observation",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-cdm-organization.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-organization",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-organization",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Organization"
+    },
+    {
+      "filename": "StructureDefinition-cdm-patient.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-patient",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-patient",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Patient"
+    },
+    {
+      "filename": "StructureDefinition-cdm-practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-practitioner",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-practitioner",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Practitioner"
+    },
+    {
+      "filename": "StructureDefinition-cdm-practitioner-bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-practitioner-bundle",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-practitioner-bundle",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Bundle"
+    },
+    {
+      "filename": "StructureDefinition-cdm-practitioner-role.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-practitioner-role",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-practitioner-role",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "PractitionerRole"
+    },
+    {
+      "filename": "StructureDefinition-cdm-procedure.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-procedure",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-procedure",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Procedure"
+    },
+    {
+      "filename": "StructureDefinition-care-gap-detected-issue.json",
+      "resourceType": "StructureDefinition",
+      "id": "care-gap-detected-issue",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/care-gap-detected-issue",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "DetectedIssue"
+    },
+    {
+      "filename": "StructureDefinition-dcg-risk.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-risk",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-risk",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "RiskAssessment"
+    },
+    {
+      "filename": "StructureDefinition-dcg-risk-bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-risk-bundle",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-risk-bundle",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Bundle"
+    },
+    {
+      "filename": "StructureDefinition-engagement-communication.json",
+      "resourceType": "StructureDefinition",
+      "id": "engagement-communication",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/engagement-communication",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Communication"
+    },
+    {
+      "filename": "StructureDefinition-engagement-communication-request.json",
+      "resourceType": "StructureDefinition",
+      "id": "engagement-communication-request",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/engagement-communication-request",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "CommunicationRequest"
+    },
+    {
+      "filename": "StructureDefinition-ffv-initative-resource.json",
+      "resourceType": "StructureDefinition",
+      "id": "ffv-initative-resource",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/ffv-initative-resource",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Contract"
+    },
+    {
+      "filename": "StructureDefinition-hierarchy-practitioner-role.json",
+      "resourceType": "StructureDefinition",
+      "id": "hierarchy-practitioner-role",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/hierarchy-practitioner-role",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "PractitionerRole"
+    },
+    {
+      "filename": "StructureDefinition-measure-population-observation.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-population-observation",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-population-observation",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-meg-episode-of-care.json",
+      "resourceType": "StructureDefinition",
+      "id": "meg-episode-of-care",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/meg-episode-of-care",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "EpisodeOfCare"
+    },
+    {
+      "filename": "StructureDefinition-cdm-organization-affiliation.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-organization-affiliation",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-organization-affiliation",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "OrganizationAffiliation"
+    },
+    {
+      "filename": "StructureDefinition-parameter-definition-with-default.json",
+      "resourceType": "StructureDefinition",
+      "id": "parameter-definition-with-default",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/parameter-definition-with-default",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "ParameterDefinition"
+    },
+    {
+      "filename": "StructureDefinition-parameter-definition-with-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "parameter-definition-with-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/parameter-definition-with-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "ParameterDefinition"
+    },
+    {
+      "filename": "StructureDefinition-patient-list.json",
+      "resourceType": "StructureDefinition",
+      "id": "patient-list",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/patient-list",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "List"
+    },
+    {
+      "filename": "StructureDefinition-practitioner-list.json",
+      "resourceType": "StructureDefinition",
+      "id": "practitioner-list",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/practitioner-list",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "List"
+    },
+    {
+      "filename": "StructureDefinition-process-meta.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-meta",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-meta",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Meta"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Measure"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure-list.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure-list",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure-list",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "List"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure-report-organization.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure-report-organization",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure-report-organization",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "MeasureReport"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure-report-patient.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure-report-patient",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure-report-patient",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "MeasureReport"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure-report-practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure-report-practitioner",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure-report-practitioner",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "MeasureReport"
+    },
+    {
+      "filename": "StructureDefinition-quality-measure-report.json",
+      "resourceType": "StructureDefinition",
+      "id": "quality-measure-report",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quality-measure-report",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "MeasureReport"
+    },
+    {
+      "filename": "StructureDefinition-quantity-with-conversion.json",
+      "resourceType": "StructureDefinition",
+      "id": "quantity-with-conversion",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/quantity-with-conversion",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Quantity"
+    },
+    {
+      "filename": "StructureDefinition-reference-with-code-and-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "reference-with-code-and-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reference-with-code-and-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Reference"
+    },
+    {
+      "filename": "StructureDefinition-reference-with-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "reference-with-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reference-with-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Reference"
+    },
+    {
+      "filename": "StructureDefinition-work-address.json",
+      "resourceType": "StructureDefinition",
+      "id": "work-address",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/work-address",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Address"
+    },
+    {
+      "filename": "StructureDefinition-age-group-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "age-group-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/age-group-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-coverage-snapshot-age-in-months.json",
+      "resourceType": "StructureDefinition",
+      "id": "coverage-snapshot-age-in-months",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/coverage-snapshot-age-in-months",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-coverage-snapshot-age-in-years.json",
+      "resourceType": "StructureDefinition",
+      "id": "coverage-snapshot-age-in-years",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/coverage-snapshot-age-in-years",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-age-rollup-group-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "age-rollup-group-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/age-rollup-group-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-allowed-amount-inpatient-epis.json",
+      "resourceType": "StructureDefinition",
+      "id": "allowed-amount-inpatient-epis",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/allowed-amount-inpatient-epis",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-allowed-amount-managing-phys-epis.json",
+      "resourceType": "StructureDefinition",
+      "id": "allowed-amount-managing-phys-epis",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/allowed-amount-managing-phys-epis",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-allowed-amount-outpatient.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-allowed-amount-outpatient",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-allowed-amount-outpatient",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-allowed-amount-pcp.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-allowed-amount-pcp",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-allowed-amount-pcp",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-allowed-amount-primary-physician.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-allowed-amount-primary-physician",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-allowed-amount-primary-physician",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-allowed-amount-rx.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-allowed-amount-rx",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-allowed-amount-rx",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-allowed-amount-total.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-allowed-amount-total",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-allowed-amount-total",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-assigned-practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "assigned-practitioner",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/assigned-practitioner",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-attributed-provider-with-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "attributed-provider-with-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/attributed-provider-with-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-canonical-measure.json",
+      "resourceType": "StructureDefinition",
+      "id": "canonical-measure",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/canonical-measure",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-care-gap-compliance-display-name.json",
+      "resourceType": "StructureDefinition",
+      "id": "care-gap-compliance-display-name",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/care-gap-compliance-display-name",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-care-gap-compliance-frequency.json",
+      "resourceType": "StructureDefinition",
+      "id": "care-gap-compliance-frequency",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/care-gap-compliance-frequency",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-care-gap-compliance-met.json",
+      "resourceType": "StructureDefinition",
+      "id": "care-gap-compliance-met",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/care-gap-compliance-met",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-child-organization-hierarchy-level-description.json",
+      "resourceType": "StructureDefinition",
+      "id": "child-organization-hierarchy-level-description",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/child-organization-hierarchy-level-description",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-child-organization-hierarchy-level-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "child-organization-hierarchy-level-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/child-organization-hierarchy-level-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-care-gap.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-care-gap",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-care-gap",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-contact.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-contact",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-contact",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-language.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-language",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-language",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-measure.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-measure",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-measure",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-mode.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-mode",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-mode",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-on-behalf-of.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-on-behalf-of",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-on-behalf-of",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-opt-out.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-opt-out",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-opt-out",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-outcome.json",
+      "resourceType": "StructureDefinition",
+      "id": "outcome",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/outcome",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-payload-data.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-payload-data",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-payload-data",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-priority-sequence.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-priority-sequence",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-priority-sequence",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-product.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-product",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-product",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-reengagement.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-reengagement",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-reengagement",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-retry-limt.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-retry-limt",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-retry-limt",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-sent-time.json",
+      "resourceType": "StructureDefinition",
+      "id": "sent-time",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/sent-time",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-template.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-template",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-template",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-communication-vendor.json",
+      "resourceType": "StructureDefinition",
+      "id": "communication-vendor",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/communication-vendor",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-conversation-type.json",
+      "resourceType": "StructureDefinition",
+      "id": "conversation-type",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/conversation-type",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-converted-quantity.json",
+      "resourceType": "StructureDefinition",
+      "id": "converted-quantity",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/converted-quantity",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-county-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "county-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/county-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-coverage-month.json",
+      "resourceType": "StructureDefinition",
+      "id": "coverage-month",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/coverage-month",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-based-on-begin-date.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-based-on-begin-date",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-based-on-begin-date",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-based-on-end-date.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-based-on-end-date",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-based-on-end-date",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-filter-name.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-filter-name",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-filter-name",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-population-group.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-population-group",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-population-group",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-subset-name.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-subset-name",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-subset-name",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-default-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "default-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/default-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-diagnostic-cost-group.json",
+      "resourceType": "StructureDefinition",
+      "id": "diagnostic-cost-group",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/diagnostic-cost-group",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-documented-sex.json",
+      "resourceType": "StructureDefinition",
+      "id": "documented-sex",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/documented-sex",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-documented-source.json",
+      "resourceType": "StructureDefinition",
+      "id": "documented-source",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/documented-source",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-documented-system.json",
+      "resourceType": "StructureDefinition",
+      "id": "documented-system",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/documented-system",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-effective-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "effective-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/effective-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-employee-fte-count.json",
+      "resourceType": "StructureDefinition",
+      "id": "employee-fte-count",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/employee-fte-count",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-employee-hire-date.json",
+      "resourceType": "StructureDefinition",
+      "id": "employee-hire-date",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/employee-hire-date",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-employee-status-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "employee-status-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/employee-status-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-employee-hipaa-status-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "employee-hipaa-status-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/employee-hipaa-status-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-employee-termination-date.json",
+      "resourceType": "StructureDefinition",
+      "id": "employee-termination-date",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/employee-termination-date",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-encrypted-state.json",
+      "resourceType": "StructureDefinition",
+      "id": "encrypted-state",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/encrypted-state",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-admit-count-epis.json",
+      "resourceType": "StructureDefinition",
+      "id": "admit-count-epis",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/admit-count-epis",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-body-system.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-body-system",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-body-system",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-cost-scale.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-cost-scale",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-cost-scale",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-derived-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-derived-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-derived-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-derived-indicator.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-derived-indicator",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-derived-indicator",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-disease-stage-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-disease-stage-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-disease-stage-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-duration.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-duration",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-duration",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-group-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-group-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-group-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-primary-physician.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-primary-physician",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-primary-physician",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-procedure-type-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-procedure-type-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-procedure-type-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-rx-count.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-rx-count",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-rx-count",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-summary-group-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-summary-group-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-summary-group-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-episode-use-scale.json",
+      "resourceType": "StructureDefinition",
+      "id": "episode-use-scale",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/episode-use-scale",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-family-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "family-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/family-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-hierarchy-version-date.json",
+      "resourceType": "StructureDefinition",
+      "id": "hierarchy-version-date",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/hierarchy-version-date",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-hierarchy-version-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "hierarchy-version-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/hierarchy-version-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-highest-hcc.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-highest-hcc",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-highest-hcc",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-identified-pronouns.json",
+      "resourceType": "StructureDefinition",
+      "id": "identified-pronouns",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/identified-pronouns",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-ingestion-batch-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "ingestion-batch-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/ingestion-batch-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-language-rank.json",
+      "resourceType": "StructureDefinition",
+      "id": "language-rank",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/language-rank",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-legally-documented-sex.json",
+      "resourceType": "StructureDefinition",
+      "id": "legally-documented-sex",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/legally-documented-sex",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-likelihood-of-hospitalization.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-likelihood-of-hospitalization",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-likelihood-of-hospitalization",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-local-employee-status-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "local-employee-status-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/local-employee-status-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-local-subscriber-relationship-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "local-subscriber-relationship-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/local-subscriber-relationship-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-compared-to.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-compared-to",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-compared-to",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-confidence-level.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-confidence-level",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-confidence-level",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-confidence-score.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-confidence-score",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-confidence-score",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-criteria.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-criteria",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-criteria",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-detail.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-detail",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-detail",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-method.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-method",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-method",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-match-source-reference.json",
+      "resourceType": "StructureDefinition",
+      "id": "match-source-reference",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/match-source-reference",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-parameter.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-parameter",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-parameter",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-parameter-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-parameter-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-parameter-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-population-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-population-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-population-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-report-assigned-practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-report-assigned-practitioner",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-report-assigned-practitioner",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-report-evidence.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-report-evidence",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-report-evidence",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-report-evidence-population-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-report-evidence-population-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-report-evidence-population-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-report-evidence-text.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-report-evidence-text",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-report-evidence-text",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-report-evidence-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-report-evidence-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-report-evidence-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-measure-weight.json",
+      "resourceType": "StructureDefinition",
+      "id": "measure-weight",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/measure-weight",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-parameter-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "parameter-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/parameter-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-parent-organization-hierarchy-level-description.json",
+      "resourceType": "StructureDefinition",
+      "id": "parent-organization-hierarchy-level-description",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/parent-organization-hierarchy-level-description",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-parent-organization-hierarchy-level-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "parent-organization-hierarchy-level-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/parent-organization-hierarchy-level-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-blood-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-blood-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-blood-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-cardiovascular-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-cardiovascular-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-cardiovascular-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-development-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-development-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-development-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-diabetes.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-diabetes",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-diabetes",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-gastrointestinal-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-gastrointestinal-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-gastrointestinal-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-hepatobiliary-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-hepatobiliary-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-hepatobiliary-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-infections.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-infections",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-infections",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-metabolic-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-metabolic-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-metabolic-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-musculoskeletal-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-musculoskeletal-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-musculoskeletal-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-neonates.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-neonates",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-neonates",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-neoplasms.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-neoplasms",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-neoplasms",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-neurological-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-neurological-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-neurological-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-other-conditions.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-other-conditions",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-other-conditions",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-pregnancy.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-pregnancy",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-pregnancy",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-psychiatric-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-psychiatric-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-psychiatric-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-respiratory-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-respiratory-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-respiratory-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-substance-abuse.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-substance-abuse",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-substance-abuse",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-trauma-and-adverse-effect.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-trauma-and-adverse-effect",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-trauma-and-adverse-effect",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-percent-contribution-urinary-system-disorder.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-percent-contribution-urinary-system-disorder",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-percent-contribution-urinary-system-disorder",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-plan-employee-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "plan-employee-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/plan-employee-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-plan-group.json",
+      "resourceType": "StructureDefinition",
+      "id": "plan-group",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/plan-group",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-plan-group-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "plan-group-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/plan-group-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-practitioner-hierarchy-level-description.json",
+      "resourceType": "StructureDefinition",
+      "id": "practitioner-hierarchy-level-description",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/practitioner-hierarchy-level-description",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-practitioner-hierarchy-level-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "practitioner-hierarchy-level-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/practitioner-hierarchy-level-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-problem-clinical-course.json",
+      "resourceType": "StructureDefinition",
+      "id": "problem-clinical-course",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/problem-clinical-course",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-problem-priority.json",
+      "resourceType": "StructureDefinition",
+      "id": "problem-priority",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/problem-priority",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-problem-type.json",
+      "resourceType": "StructureDefinition",
+      "id": "problem-type",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/problem-type",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-procedure-modifier.json",
+      "resourceType": "StructureDefinition",
+      "id": "procedure-modifier",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/procedure-modifier",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-client-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-client-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-client-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-name.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-name",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-name",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-organization.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-organization",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-organization",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-record-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-record-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-record-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-timestamp.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-timestamp",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-timestamp",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-type.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-type",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-type",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-version.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-version",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-version",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-project-annual-cost.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-project-annual-cost",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-project-annual-cost",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-provider-region.json",
+      "resourceType": "StructureDefinition",
+      "id": "provider-region",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/provider-region",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-recorder-facility.json",
+      "resourceType": "StructureDefinition",
+      "id": "recorder-facility",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/recorder-facility",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-reengagement-display.json",
+      "resourceType": "StructureDefinition",
+      "id": "reengagement-display",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reengagement-display",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-reengagement-value.json",
+      "resourceType": "StructureDefinition",
+      "id": "reengagement-value",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reengagement-value",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-reference-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "reference-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reference-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-reference-period.json",
+      "resourceType": "StructureDefinition",
+      "id": "reference-period",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/reference-period",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-region-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "region-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/region-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-related-issue.json",
+      "resourceType": "StructureDefinition",
+      "id": "related-issue",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/related-issue",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-related-observation.json",
+      "resourceType": "StructureDefinition",
+      "id": "related-observation",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/related-observation",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-risk-category-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-risk-category-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-risk-category-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-dcg-risk-score-nonrescale.json",
+      "resourceType": "StructureDefinition",
+      "id": "dcg-risk-score-nonrescale",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/dcg-risk-score-nonrescale",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-see-also.json",
+      "resourceType": "StructureDefinition",
+      "id": "see-also",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/see-also",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-sent-to-recipient.json",
+      "resourceType": "StructureDefinition",
+      "id": "sent-to-recipient",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/sent-to-recipient",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-sent-to-vendor.json",
+      "resourceType": "StructureDefinition",
+      "id": "sent-to-vendor",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/sent-to-vendor",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-sex-assigned-at-birth.json",
+      "resourceType": "StructureDefinition",
+      "id": "sex-assigned-at-birth",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/sex-assigned-at-birth",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-sexual-orientation.json",
+      "resourceType": "StructureDefinition",
+      "id": "sexual-orientation",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/sexual-orientation",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-data-model-version.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-data-model-version",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-data-model-version",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-file-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-file-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-file-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-split-method.json",
+      "resourceType": "StructureDefinition",
+      "id": "split-method",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/split-method",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-stated-reason.json",
+      "resourceType": "StructureDefinition",
+      "id": "stated-reason",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/stated-reason",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-status-code.json",
+      "resourceType": "StructureDefinition",
+      "id": "status-code",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/status-code",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-tenant-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "tenant-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/tenant-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "ValueSet-appointment-cancellation-reason.json",
+      "resourceType": "ValueSet",
+      "id": "appointment-cancellation-reason",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/appointment-cancellation-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-attribution-code-vs.json",
+      "resourceType": "ValueSet",
+      "id": "attribution-code-vs",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/attribution-code-vs",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-attribution-product.json",
+      "resourceType": "ValueSet",
+      "id": "attribution-product",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/attribution-product",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-attribution-source.json",
+      "resourceType": "ValueSet",
+      "id": "attribution-source",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/attribution-source",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-encounter-class.json",
+      "resourceType": "ValueSet",
+      "id": "encounter-class",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/encounter-class",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-communication-mode.json",
+      "resourceType": "ValueSet",
+      "id": "eng-communication-mode",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-communication-mode",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-communication-request-status.json",
+      "resourceType": "ValueSet",
+      "id": "eng-communication-request-status",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-communication-request-status",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-communication-status.json",
+      "resourceType": "ValueSet",
+      "id": "eng-communication-status",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-communication-status",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-conversation-type.json",
+      "resourceType": "ValueSet",
+      "id": "eng-conversation-type",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-conversation-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-opt-out-reason.json",
+      "resourceType": "ValueSet",
+      "id": "eng-opt-out-reason",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-opt-out-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-eng-product.json",
+      "resourceType": "ValueSet",
+      "id": "eng-product",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/eng-product",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-ffv-schedule-vs.json",
+      "resourceType": "ValueSet",
+      "id": "ffv-schedule-vs",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/ffv-schedule-vs",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-gender-identity.json",
+      "resourceType": "ValueSet",
+      "id": "gender-identity",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/gender-identity",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-identifier-type.json",
+      "resourceType": "ValueSet",
+      "id": "identifier-type",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/identifier-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-legal-document-source.json",
+      "resourceType": "ValueSet",
+      "id": "legal-document-source",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/legal-document-source",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-legal-document-system.json",
+      "resourceType": "ValueSet",
+      "id": "legal-document-system",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/legal-document-system",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-match-confidence-level.json",
+      "resourceType": "ValueSet",
+      "id": "match-confidence-level",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/match-confidence-level",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-match-method.json",
+      "resourceType": "ValueSet",
+      "id": "match-method",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/match-method",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-measure-population-type.json",
+      "resourceType": "ValueSet",
+      "id": "measure-population-type",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/measure-population-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-patient-importance.json",
+      "resourceType": "ValueSet",
+      "id": "patient-importance",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/patient-importance",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-patient-status.json",
+      "resourceType": "ValueSet",
+      "id": "patient-status",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/patient-status",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-quality-measure-population-type.json",
+      "resourceType": "ValueSet",
+      "id": "quality-measure-population-type",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/quality-measure-population-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-quality-measure-scoring.json",
+      "resourceType": "ValueSet",
+      "id": "quality-measure-scoring",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/quality-measure-scoring",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-sex-assigned-at-birth.json",
+      "resourceType": "ValueSet",
+      "id": "sex-assigned-at-birth",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/sex-assigned-at-birth",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-sexual-orientation.json",
+      "resourceType": "ValueSet",
+      "id": "sexual-orientation",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/sexual-orientation",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-split-method.json",
+      "resourceType": "ValueSet",
+      "id": "split-method",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/split-method",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-appointment-cancellation-reason.json",
+      "resourceType": "CodeSystem",
+      "id": "appointment-cancellation-reason",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/appointment-cancellation-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-attribution-code-system.json",
+      "resourceType": "CodeSystem",
+      "id": "attribution-code-system",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/attribution-code-system",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-attribution-product.json",
+      "resourceType": "CodeSystem",
+      "id": "attribution-product",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/attribution-product",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-attribution-source.json",
+      "resourceType": "CodeSystem",
+      "id": "attribution-source",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/attribution-source",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-encounter-class.json",
+      "resourceType": "CodeSystem",
+      "id": "encounter-class",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/encounter-class",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-communication-mode.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-communication-mode",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-communication-mode",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-communication-reqeust-status-reason.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-communication-reqeust-status-reason",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-communication-reqeust-status-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-communication-status-reason.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-communication-status-reason",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-communication-status-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-conversation-type.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-conversation-type",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-conversation-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-opt-out-reason.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-opt-out-reason",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-opt-out-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-eng-product.json",
+      "resourceType": "CodeSystem",
+      "id": "eng-product",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/eng-product",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-ffv-schedule.json",
+      "resourceType": "CodeSystem",
+      "id": "ffv-schedule",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/ffv-schedule",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-gender-identity.json",
+      "resourceType": "CodeSystem",
+      "id": "gender-identity",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/gender-identity",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-identifier-type.json",
+      "resourceType": "CodeSystem",
+      "id": "identifier-type",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/identifier-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-legal-document-source.json",
+      "resourceType": "CodeSystem",
+      "id": "legal-document-source",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/legal-document-source",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-legal-document-system.json",
+      "resourceType": "CodeSystem",
+      "id": "legal-document-system",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/legal-document-system",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-match-confidence-level.json",
+      "resourceType": "CodeSystem",
+      "id": "match-confidence-level",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/match-confidence-level",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-match-method.json",
+      "resourceType": "CodeSystem",
+      "id": "match-method",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/match-method",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-measure-population-type.json",
+      "resourceType": "CodeSystem",
+      "id": "measure-population-type",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/measure-population-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-patient-importance.json",
+      "resourceType": "CodeSystem",
+      "id": "patient-importance",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/patient-importance",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-patient-status.json",
+      "resourceType": "CodeSystem",
+      "id": "patient-status",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/patient-status",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-process-meta-primary-or-secondary.json",
+      "resourceType": "CodeSystem",
+      "id": "process-meta-primary-or-secondary",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/process-meta-primary-or-secondary",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-sex-assigned-at-birth.json",
+      "resourceType": "CodeSystem",
+      "id": "sex-assigned-at-birth",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/sex-assigned-at-birth",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-sexual-orientation.json",
+      "resourceType": "CodeSystem",
+      "id": "sexual-orientation",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/sexual-orientation",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-split-method.json",
+      "resourceType": "CodeSystem",
+      "id": "split-method",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/split-method",
+      "version": "0.1.0"
+    }
+  ]
+}

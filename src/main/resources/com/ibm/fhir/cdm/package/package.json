@@ -1,0 +1,34 @@
+{
+  "name": "wh.cdm.fhir",
+  "version": "0.1.1",
+  "tools-version": 3,
+  "type": "fhir.ig",
+  "date": "20210326152023",
+  "license": "CC0-1.0",
+  "canonical": "http://ibm.com/fhir/cdm",
+  "notForPublication": true,
+  "url": "file:///Users/stuartcoxus.ibm.com/github.ibm.com/watson-health-fhir-server/ig-merge-work/build/output",
+  "title": "WH Common Data Model Implementation Guide",
+  "description": "Watson Health Common Data Model Profiles (built Fri, Mar 26, 2021 15:20-0500-05:00)",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+  },
+  "maintainers": [
+    {
+      "name": "Kim Kenna",
+      "email": "sloand@us.ibm.com"
+    },
+    {
+      "name": "Jill Doty",
+      "email": "jdoty@us.ibm.com"
+    }
+  ],
+  "directories": {
+    "lib": "package",
+    "example": "example"
+  }
+}

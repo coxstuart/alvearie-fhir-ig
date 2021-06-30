@@ -20,4 +20,8 @@ jobs:
       - run: npm run sushi
       - run: yes | npm run ig_init
       - run: npm run copy_version
+#      - run: mkdir -p ./src/main/resources/com/ibm/fhir/cdm
+#            && tar -C ./src/main/resources/com/ibm/fhir/cdm/ -xf ./build/output/package.tgz 
+#            && mvn test
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      
