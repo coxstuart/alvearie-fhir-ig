@@ -17,6 +17,7 @@ jobs:
 #      - name: Run Sushi
       - run: npm install
       - run: npm run sushi
+      - run: yes | npm run ig_init
 #      - name: List files in the repository
 #        run: |
 #          ls ${{ github.workspace }}
