@@ -19,12 +19,12 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       
-#      - name: Run Sushi
+      - name: Install Sushi and Jekyll
       - run: npm install
       - run: gem install jekyll
+
+      - name: Run Sushi and build the IG
       - run: npm run sushi
       - run: yes | npm run ig_init
-#      - name: List files in the repository
-#        run: |
-#          ls ${{ github.workspace }}
+
       - run: echo "🍏 This job's status is ${{ job.status }}."
