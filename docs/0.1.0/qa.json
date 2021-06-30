@@ -3,7 +3,7 @@
   "name": "AlvearieFHIRImplementationGuide",
   "package-id": "alvearie.fhir.ig",
   "ig-ver": "0.1.0",
-  "date": "Wed, 30 Jun, 2021 20:55:59 +0000",
+  "date": "Wed, 30 Jun, 2021 21:06:25 +0000",
   "errs": 3,
   "warnings": 13,
   "hints": 0,
