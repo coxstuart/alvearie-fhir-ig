@@ -18,13 +18,13 @@ jobs:
       - run: npm install
       - run: gem install jekyll
       - run: npm run sushi
-      - run: yes | npm run ig_init
+      - run: npm run ig_init
       - run: npm run copy_version
       - run: |
           git config user.name github-actions
           git config user.email github.actions@github.com
           git add .
-          git commit -m "generated docs"
+          git commit -m "Generated docs"
           git push
 #      - run: mkdir -p ./src/main/resources/com/ibm/fhir/cdm
 #            && tar -C ./src/main/resources/com/ibm/fhir/cdm/ -xf ./build/output/package.tgz 
