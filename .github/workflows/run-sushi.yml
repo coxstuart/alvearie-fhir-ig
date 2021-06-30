@@ -19,4 +19,5 @@ jobs:
       - run: gem install jekyll
       - run: npm run sushi
       - run: yes | npm run ig_init
+      - run: npm run copy_version
       - run: echo "🍏 This job's status is ${{ job.status }}."
