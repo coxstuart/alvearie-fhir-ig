@@ -14,7 +14,7 @@ jobs:
       - name: Run Sushi
       - uses: actions/setup-node@v2
       - with: 
-        node-version: '14'
+          node-version: '14'
       - run npm install
       - run npm run sushi
       - name: List files in the repository
