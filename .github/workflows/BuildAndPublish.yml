@@ -1,5 +1,7 @@
 name: Build And Publish
-on:  [push]
+on:  
+  push:
+    branches: [master]
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
