@@ -1,6 +1,6 @@
 name: run sushi
-on:  [push]
-jobs:
+on:  [push] INVALID RUNNER
+jobs: INVALID RUNNER
   run-sushi:
     runs-on: ubuntu-latest
     steps:
