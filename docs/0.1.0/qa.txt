@@ -1,0 +1,238 @@
+﻿AlvearieFHIRImplementationGuide : Validation Results
+=========================================
+
+err = 3, warn = 13, info = 0
+IG Publisher Version: 1.1.76
+Generated Thu Jul 01 17:59:34 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
+
+ Build Errors : 162 / 0 / 0
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/ImplementationGuide-alvearie.fhir.ig : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/examples/Appointment-AppointmentExample : 3 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-ingestion-batch-id : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-client-id : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-name : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-organization : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-record-id : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-timestamp : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-type : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-version : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-data-model-version : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-event-timestamp : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-event-trigger : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-file-id : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-record-id : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-record-type : 0 / 1 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-tenant-id : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/profiles/StructureDefinition-cdm-appointment : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/profiles/StructureDefinition-process-meta : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-appointment-cancellation-reason : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-identifier-type : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-process-meta-primary-or-secondary : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-appointment-cancellation-reason : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-identifier-type : 0 / 0 / 1
+ /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-source-classification-values : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1265: The link 'CDMPatientInstance' for "CDMPatientInstance" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1580: The link 'DrKelly' for "DrKelly" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1818: The link 'KellyClinic' for "KellyClinic" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.json.html#/html/body/div/div/div/p/a at Line 340, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.xml.html#/html/body/div/div/div/p/a at Line 310, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-appointment-cancellation-reason.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-appointment-cancellation-reason.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-appointment-cancellation-reason.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-appointment-cancellation-reason.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-appointment-cancellation-reason.xml.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-identifier-type.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-identifier-type.json.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-process-meta-primary-or-secondary.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-process-meta-primary-or-secondary.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-process-meta-primary-or-secondary.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-process-meta-primary-or-secondary.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/CodeSystem-process-meta-primary-or-secondary.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment-definitions.html#/html/body/div/div/div/p/a at Line 778, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment-examples.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment-mappings.html#/html/body/div/div/div/p/a at Line 395, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.html#/html/body/div/div/div/p/a at Line 795, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.json.html#/html/body/div/div/div/p/a at Line 3205, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.ttl.html#/html/body/div/div/div/p/a at Line 2792, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2887, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-client-id.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta-definitions.html#/html/body/div/div/div/p/a at Line 568, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta-mappings.html#/html/body/div/div/div/p/a at Line 275, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta.html#/html/body/div/div/div/p/a at Line 790, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta.profile.json.html#/html/body/div/div/div/p/a at Line 2328, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta.profile.ttl.html#/html/body/div/div/div/p/a at Line 2079, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-meta.profile.xml.html#/html/body/div/div/div/p/a at Line 2111, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-name.profile.xml.html#/html/body/div/div/div/p/a at Line 478, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-record-id.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-timestamp.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-type.profile.xml.html#/html/body/div/div/div/p/a at Line 478, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-process-version.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-data-model-version.profile.xml.html#/html/body/div/div/div/p/a at Line 481, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-timestamp.profile.xml.html#/html/body/div/div/div/p/a at Line 481, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-event-trigger.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-file-id.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-id.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-source-record-type.profile.xml.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id.profile.json.html#/html/body/div/div/div/p/a at Line 524, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id.profile.ttl.html#/html/body/div/div/div/p/a at Line 497, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-tenant-id.profile.xml.html#/html/body/div/div/div/p/a at Line 478, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-appointment-cancellation-reason.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-appointment-cancellation-reason.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-appointment-cancellation-reason.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-appointment-cancellation-reason.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-appointment-cancellation-reason.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-identifier-type.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-identifier-type.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-source-classification-values.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-source-classification-values.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-source-classification-values.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-source-classification-values.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/ValueSet-source-classification-values.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/artifacts.html#/html/body/div/div/div/p/a at Line 464, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/index.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/toc.html#/html/body/div/div/div/p/a at Line 146, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/ImplementationGuide-alvearie.fhir.ig.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/examples/Appointment-AppointmentExample.json ==
+ERROR: Appointment/AppointmentExample: Appointment.participant[0].actor: Unable to resolve resource 'CDMPatientInstance'
+ERROR: Appointment/AppointmentExample: Appointment.participant[1].actor: Unable to resolve resource 'DrKelly'
+ERROR: Appointment/AppointmentExample: Appointment.participant[2].actor: Unable to resolve resource 'KellyClinic'
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-ingestion-batch-id.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-client-id.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-client-id'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-name.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-name'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-organization.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-organization'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-record-id.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-record-id'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-timestamp.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-timestamp'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-type.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-type'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-process-version.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/process-version'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-data-model-version.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-data-model-version'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-event-timestamp.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-event-timestamp'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-event-trigger.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-event-trigger'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-file-id.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-file-id'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-record-id.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-record-id'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-source-record-type.json ==
+WARNING: StructureDefinition.where(url = 'http://ibm.com/fhir/cdm/StructureDefinition/source-record-type'): The Implementation Guide contains no examples for this extension
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/extensions/StructureDefinition-tenant-id.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/profiles/StructureDefinition-cdm-appointment.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/profiles/StructureDefinition-process-meta.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-appointment-cancellation-reason.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-identifier-type.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/CodeSystem-process-meta-primary-or-secondary.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-appointment-cancellation-reason.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-identifier-type.json ==
+== /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/vocabulary/ValueSet-source-classification-values.json ==

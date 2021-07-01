@@ -1,0 +1,214 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "alvearie.fhir.ig",
+      "url": "http://ibm.com/fhir/cdm/ImplementationGuide/alvearie.fhir.ig",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ImplementationGuide-alvearie.fhir.ig.json",
+      "resourceType": "ImplementationGuide",
+      "id": "alvearie.fhir.ig",
+      "url": "http://ibm.com/fhir/cdm/ImplementationGuide/alvearie.fhir.ig",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "StructureDefinition-cdm-appointment.json",
+      "resourceType": "StructureDefinition",
+      "id": "cdm-appointment",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-appointment",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Appointment"
+    },
+    {
+      "filename": "StructureDefinition-process-meta.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-meta",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-meta",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Meta"
+    },
+    {
+      "filename": "StructureDefinition-ingestion-batch-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "ingestion-batch-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/ingestion-batch-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-client-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-client-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-client-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-name.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-name",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-name",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-organization.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-organization",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-organization",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-record-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-record-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-record-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-timestamp.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-timestamp",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-timestamp",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-type.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-type",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-type",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-process-version.json",
+      "resourceType": "StructureDefinition",
+      "id": "process-version",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-version",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-data-model-version.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-data-model-version",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-data-model-version",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-event-timestamp.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-event-timestamp",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-event-timestamp",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-event-trigger.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-event-trigger",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-event-trigger",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-file-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-file-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-file-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-record-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-record-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-record-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-source-record-type.json",
+      "resourceType": "StructureDefinition",
+      "id": "source-record-type",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-record-type",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-tenant-id.json",
+      "resourceType": "StructureDefinition",
+      "id": "tenant-id",
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/tenant-id",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "ValueSet-appointment-cancellation-reason.json",
+      "resourceType": "ValueSet",
+      "id": "appointment-cancellation-reason",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/appointment-cancellation-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-identifier-type.json",
+      "resourceType": "ValueSet",
+      "id": "identifier-type",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/identifier-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "ValueSet-source-classification-values.json",
+      "resourceType": "ValueSet",
+      "id": "source-classification-values",
+      "url": "http://ibm.com/fhir/cdm/ValueSet/source-classification-values",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-appointment-cancellation-reason.json",
+      "resourceType": "CodeSystem",
+      "id": "appointment-cancellation-reason",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/appointment-cancellation-reason",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-identifier-type.json",
+      "resourceType": "CodeSystem",
+      "id": "identifier-type",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/identifier-type",
+      "version": "0.1.0"
+    },
+    {
+      "filename": "CodeSystem-process-meta-primary-or-secondary.json",
+      "resourceType": "CodeSystem",
+      "id": "process-meta-primary-or-secondary",
+      "url": "http://ibm.com/fhir/cdm/CodeSystem/process-meta-primary-or-secondary",
+      "version": "0.1.0"
+    }
+  ]
+}

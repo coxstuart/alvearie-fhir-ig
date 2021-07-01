@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="AppointmentExample"/>
+  <meta>
+    <extension url="http://ibm.com/fhir/cdm/StructureDefinition/tenant-id">
+      <valueString value="99999"/>
+    </extension>
+    <extension url="http://ibm.com/fhir/cdm/StructureDefinition/ingestion-batch-id">
+      <valueString value="b069a545-9506-40c6-8498-23de2e189143"/>
+    </extension>
+    <source value="http://acme-health.com/emr1"/>
+    <profile value="http://ibm.com/fhir/cdm/StructureDefinition/cdm-appointment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Source System Row Identifier: 7e5ce175-e626-43ec-b8d2-9c1c1207e9ba (OFFICIAL)</p><p><b>status</b>: booked</p><p><b>serviceCategory</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/service-category 17}">General Practice</span></p><p><b>serviceType</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/service-type 367}">Hypertension</span></p><p><b>specialty</b>: <span title="Codes: {http://snomed.info/sct 394802001}">General medicine</span></p><p><b>appointmentType</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0276 CHECKUP}">A routine check-up, such as an annual physical</span></p><p><b>reasonCode</b>: <span title="Codes: {http://snomed.info/sct 1201005}">Benign essential hypertension</span></p><p><b>start</b>: Apr 15, 2020 9:00:00 AM</p><p><b>end</b>: Apr 15, 2020 9:15:00 AM</p><p><b>minutesDuration</b>: 15</p><p><b>created</b>: Apr 1, 2020 11:45:00 AM</p><p><b>comment</b>: Patient medications working as expected. DM under control. Refill Bytolic and Valartan.</p><p><b>patientInstruction</b>: Take your meds every day.  Excercise more, eat less!</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="CDMPatientInstance">CDMPatientInstance</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ParticipationType PPRF}">primary performer</span></p><p><b>actor</b>: <a href="DrKelly">DrKelly</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p><p><b>period</b>: Apr 15, 2020 9:00:00 AM --&gt; Apr 15, 2020 9:15:00 AM</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="KellyClinic">KellyClinic</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p><p><b>period</b>: Apr 15, 2020 9:00:00 AM --&gt; Apr 15, 2020 9:15:00 AM</p></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://ibm.com/fhir/cdm/CodeSystem/identifier-type"/>
+        <code value="SSRI"/>
+      </coding>
+    </type>
+    <system value="http://acme-health.com/emr1/appointment"/>
+    <value value="7e5ce175-e626-43ec-b8d2-9c1c1207e9ba"/>
+    <assigner>
+      <display value="Acme Health - EMR1"/>
+    </assigner>
+  </identifier>
+  <status value="booked"/>
+  <serviceCategory>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/service-category"/>
+      <code value="17"/>
+      <display value="General Practice"/>
+    </coding>
+  </serviceCategory>
+  <serviceType>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/service-type"/>
+      <code value="367"/>
+      <display value="Hypertension"/>
+    </coding>
+  </serviceType>
+  <specialty>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="394802001"/>
+      <display value="General medicine"/>
+    </coding>
+  </specialty>
+  <appointmentType>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0276"/>
+      <code value="CHECKUP"/>
+    </coding>
+  </appointmentType>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="1201005"/>
+      <display value="Benign essential hypertension"/>
+    </coding>
+  </reasonCode>
+  <start value="2020-04-15T09:00:00Z"/>
+  <end value="2020-04-15T09:15:00Z"/>
+  <minutesDuration value="15"/>
+  <created value="2020-04-01T11:45:00Z"/>
+  <comment value="Patient medications working as expected. DM under control. Refill Bytolic and Valartan."/>
+  <patientInstruction value="Take your meds every day.  Excercise more, eat less!"/>
+  <participant>
+    <actor>
+      <reference value="CDMPatientInstance"/>
+    </actor>
+    <required value="required"/>
+    <status value="accepted"/>
+  </participant>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="PPRF"/>
+        <display value="primary performer"/>
+      </coding>
+    </type>
+    <actor>
+      <reference value="DrKelly"/>
+    </actor>
+    <required value="required"/>
+    <status value="accepted"/>
+    <period>
+      <start value="2020-04-15T09:00:00Z"/>
+      <end value="2020-04-15T09:15:00Z"/>
+    </period>
+  </participant>
+  <participant>
+    <actor>
+      <reference value="KellyClinic"/>
+    </actor>
+    <required value="required"/>
+    <status value="accepted"/>
+    <period>
+      <start value="2020-04-15T09:00:00Z"/>
+      <end value="2020-04-15T09:15:00Z"/>
+    </period>
+  </participant>
+</Appointment>

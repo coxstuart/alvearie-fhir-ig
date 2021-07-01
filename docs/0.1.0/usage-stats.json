@@ -1,0 +1,202 @@
+{
+  "package": "alvearie.fhir.ig",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/ingestion-batch-id",
+      "title": "Ingestion Batch Id",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-client-id",
+      "title": "Process Client ID",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-name",
+      "title": "Process Name",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-organization",
+      "title": "Process Organization",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-record-id",
+      "title": "Process Record ID",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-timestamp",
+      "title": "Process Timestamp",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-type",
+      "title": "Process Type",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/process-version",
+      "title": "Process Version",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-data-model-version",
+      "title": "Source Data Model Version",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-event-timestamp",
+      "title": "Source Event Timestamp",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-event-trigger",
+      "title": "Source Event Trigger",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-file-id",
+      "title": "Source File ID",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-record-id",
+      "title": "Source Record ID",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/source-record-type",
+      "title": "Source Record Type",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ibm.com/fhir/cdm/StructureDefinition/tenant-id",
+      "title": "Tenant Id",
+      "types": [
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Appointment": [
+      {
+        "url": "http://ibm.com/fhir/cdm/StructureDefinition/cdm-appointment",
+        "title": "CDM Appointment"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/ingestion-batch-id": [
+      "Appointment.meta",
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-client-id": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-name": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-organization": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-record-id": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-timestamp": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-type": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/process-version": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-data-model-version": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-event-timestamp": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-event-trigger": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-file-id": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-record-id": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/source-record-type": [
+      "Meta"
+    ],
+    "http://ibm.com/fhir/cdm/StructureDefinition/tenant-id": [
+      "Appointment.meta",
+      "Meta"
+    ]
+  }
+}

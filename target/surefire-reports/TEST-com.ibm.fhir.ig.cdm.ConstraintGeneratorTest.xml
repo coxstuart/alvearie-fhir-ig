@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="1.904" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/test-classes:/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/classes:/home/runner/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/runner/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/home/runner/.m2/repository/org/owasp/encoder/encoder/1.2.3/encoder-1.2.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-core/4.8.3/fhir-core-4.8.3.jar:/home/runner/.m2/repository/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1.jar:/home/runner/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-model/4.8.3/fhir-model-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-path/4.8.3/fhir-path-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-term/4.8.3/fhir-term-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-cache/4.8.3/fhir-cache-4.8.3.jar:/home/runner/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.0/caffeine-2.9.0.jar:/home/runner/.m2/repository/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.jar:/home/runner/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-profile/4.8.3/fhir-profile-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-registry/4.8.3/fhir-registry-4.8.3.jar:/home/runner/.m2/repository/org/testng/testng/6.9.13.6/testng-6.9.13.6.jar:/home/runner/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/runner/.m2/repository/org/apache/ant/ant/1.9.7/ant-1.9.7.jar:/home/runner/.m2/repository/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar:/home/runner/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/runner/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/home/runner/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/surefire/surefirebooter4329123028249549740.jar /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/surefire 2021-07-01T18-06-34_970-jvmRun1 surefire7933967835551965232tmp surefire_08903781212566403552tmp"/>
+    <property name="surefire.test.class.path" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/test-classes:/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/classes:/home/runner/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/runner/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/home/runner/.m2/repository/org/owasp/encoder/encoder/1.2.3/encoder-1.2.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-core/4.8.3/fhir-core-4.8.3.jar:/home/runner/.m2/repository/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1.jar:/home/runner/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-model/4.8.3/fhir-model-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-path/4.8.3/fhir-path-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-term/4.8.3/fhir-term-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-cache/4.8.3/fhir-cache-4.8.3.jar:/home/runner/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.0/caffeine-2.9.0.jar:/home/runner/.m2/repository/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.jar:/home/runner/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-profile/4.8.3/fhir-profile-4.8.3.jar:/home/runner/.m2/repository/com/ibm/fhir/fhir-registry/4.8.3/fhir-registry-4.8.3.jar:/home/runner/.m2/repository/org/testng/testng/6.9.13.6/testng-6.9.13.6.jar:/home/runner/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/runner/.m2/repository/org/apache/ant/ant/1.9.7/ant-1.9.7.jar:/home/runner/.m2/repository/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar:/home/runner/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/runner/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/home/runner/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/runner"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre"/>
+    <property name="basedir" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/target/surefire/surefirebooter4329123028249549740.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/resources.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/rt.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jsse.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jce.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/charsets.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jfr.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="user.name" value="runner"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-1036-azure"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/runner/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testConstraintGenerator" classname="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="1.703"/>
+</testsuite>
