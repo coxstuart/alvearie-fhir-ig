@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="2170" started-at="2021-07-01T17:59:53Z" finished-at="2021-07-01T17:59:56Z">
+  <suite name="Surefire suite" duration-ms="1716" started-at="2021-07-01T18:06:35Z" finished-at="2021-07-01T18:06:37Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="2170" started-at="2021-07-01T17:59:53Z" finished-at="2021-07-01T17:59:56Z">
+    <test name="Surefire test" duration-ms="1716" started-at="2021-07-01T18:06:35Z" finished-at="2021-07-01T18:06:37Z">
       <class name="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest">
-        <test-method status="PASS" signature="testConstraintGenerator()[pri:0, instance:com.ibm.fhir.ig.cdm.ConstraintGeneratorTest@34ce8af7]" name="testConstraintGenerator" duration-ms="2155" started-at="2021-07-01T17:59:53Z" finished-at="2021-07-01T17:59:56Z">
+        <test-method status="PASS" signature="testConstraintGenerator()[pri:0, instance:com.ibm.fhir.ig.cdm.ConstraintGeneratorTest@b684286]" name="testConstraintGenerator" duration-ms="1704" started-at="2021-07-01T18:06:35Z" finished-at="2021-07-01T18:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConstraintGenerator -->
