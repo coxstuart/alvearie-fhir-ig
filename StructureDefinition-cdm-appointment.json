@@ -20,7 +20,7 @@
   "name": "CDMAppointment",
   "title": "CDM Appointment",
   "status": "active",
-  "date": "2021-07-01T20:20:40+00:00",
+  "date": "2021-07-01T21:06:57+00:00",
   "contact": [
     {
       "name": "Kim Kenna",
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "description": "TEST TEST TEST",
+  "description": "TEST MOD FOUR FOUR FOUR FOUR",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
