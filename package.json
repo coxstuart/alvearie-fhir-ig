@@ -15,9 +15,10 @@
     "ig_init_win": "xcopy \"data\\ig-data\\alvearie-template\" \"build\\alvearie-template\" /s /i /y /q && cd build && _updatePublisher.bat && _genonce.bat",
     "ig": "cp -r data/ig-data/alvearie-template build/ && cd build && ./_genonce.sh",
     "ig_win": "xcopy \"data\\ig-data\\alvearie-template\" \"build\\alvearie-template\" /s /i /y /q && cd build && _genonce.bat",
-    "copy_version": "mkdir -p docs/0.1.0 && rsync -ahcv build/output/ docs/0.1.0 --delete",
-    "copy_version_win": "xcopy \"build\\output\" \"docs\\0.1.0\" /s /i /y /q",
-    "maven_build": "mkdir -p ./src/main/resources/com/ibm/fhir/cdm && tar -C ./src/main/resources/com/ibm/fhir/cdm/ -xf ./build/output/package.tgz && mvn test",
+    "copy_docs_version": "mkdir -p docs/0.1.0 && rsync -ahcv build/output/ docs/0.1.0 --delete",
+    "copy_docs_version_win": "xcopy \"build\\output\" \"docs\\0.1.0\" /s /i /y /q",
+    "mvn_build": "mkdir -p ./src/main/resources/com/ibm/fhir/cdm && tar -C ./src/main/resources/com/ibm/fhir/cdm/ -xf ./build/output/package.tgz && mvn test",
+    "mvn_snapshot": "mkdir -p ./src/main/resources/com/ibm/fhir/cdm && tar -C ./src/main/resources/com/ibm/fhir/cdm/ -xf ./build/output/package.tgz && mvn test && mvn flatten:flatten -Dflatten.mode=oss && mv .flattened-pom.xml pom.xml",  
     "all": "npm run sushi && npm run ig_init && npm run copy_version"
   },
   "language": "en",
