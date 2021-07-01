@@ -14,10 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - nmae: Run Sushi
+      - name: Run Sushi
         run:  |
           npm install
           gem install jekyll
           npm run sushi
           npm run ig_init
-                    
