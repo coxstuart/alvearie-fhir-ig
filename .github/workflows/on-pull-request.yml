@@ -14,8 +14,7 @@ jobs:
           echo "The head_ref is ${{ github.head_ref }}"
 
       - name: ECHO - ONLY ON MERGED PR
-        if: github.event.pull_request.merged
-        if: github.ref == 'refs/heads/master'
+        if: github.event.pull_request.merged && github.ref == 'refs/heads/master'
         run: echo "My PR WAS merged, run this now!"
 
 #      - name: Checkout Repo
