@@ -1,7 +1,7 @@
 name: Just Publish
 on: push
 jobs:
-  just-publish:
+  just-build:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
