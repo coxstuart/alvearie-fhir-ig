@@ -11,7 +11,7 @@
   <name value="AlvearieFHIRImplementationGuide"/>
   <title value="Alvearie FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-07-01T22:26:19+00:00"/>
+  <date value="2021-07-01T23:21:55+00:00"/>
   <contact>
     <name value="Kim Kenna"/>
     <telecom>
@@ -204,7 +204,7 @@
         <reference value="StructureDefinition/cdm-appointment"/>
       </reference>
       <name value="CDM Appointment"/>
-      <description value="TEST MOD FIVE FOR 55"/>
+      <description value="Test with SEVEN apppointments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

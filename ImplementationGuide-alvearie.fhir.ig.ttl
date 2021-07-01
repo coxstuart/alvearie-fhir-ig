@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "AlvearieFHIRImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Alvearie FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-01T22:26:19+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-01T23:21:55+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Kim Kenna" ];
@@ -306,7 +306,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cdm-appointment" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDM Appointment" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TEST MOD FIVE FOR 55" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test with SEVEN apppointments" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
