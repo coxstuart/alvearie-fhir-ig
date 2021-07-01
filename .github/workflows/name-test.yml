@@ -20,12 +20,30 @@ jobs:
           ruby-version: '3'
           bundler-cache: true   # Runs 'bundle install' and caches installed gems automatically
 
+      - name: Setup Java / Maven
+        uses: actions/setup-java@v2
+        with:
+          java-version: '8'
+          distribution: 'adopt'          
+
       - name: Install Dependencies
         run:  |
           npm install
           gem install jekyll
+          mvn clean install
 
       - name: Build IG
         run:  |
           npm run sushi
           npm run ig_init
+
+      - name: Create Snapshot Jar
+        run:  |
+          npm run mvn_snapshot    
+          npm run copy_snapshot
+
+      - name: Deploy gh-pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages      # The branch to deploy to
+          folder: build/output  # Folder to deploy
