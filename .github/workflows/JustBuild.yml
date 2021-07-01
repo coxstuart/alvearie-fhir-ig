@@ -1,7 +1,8 @@
-name: name test
-on:  [push]
+name: Build And Publish
+on: push
+  push
 jobs:
-  name-test:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
@@ -41,12 +42,6 @@ jobs:
         run:  |
           npm run mvn_snapshot
           npm run copy_snapshot
-
-      - name: Deploy gh-pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages      # The branch to deploy to
-          folder: build/output  # Folder to deploy
 
 #      - name: Copy To Documents Folder
 #      - run: npm run copy_docs_version
