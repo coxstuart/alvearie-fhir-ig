@@ -12,7 +12,7 @@ Description:    "TEST MOD FIVE FOR 55"
 * identifier 1..*
 * identifier.system 1..1
 * identifier.value 1..1
-identifier.type from IdentifierTypeValueSet (extensible)
+* identifier.type from IdentifierTypeValueSet (extensible)
 
 // Slice Identifiers by type
 * identifier ^slicing.ordered = false
