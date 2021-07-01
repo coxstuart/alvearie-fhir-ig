@@ -3,7 +3,7 @@
 
 err = 3, warn = 13, info = 0
 IG Publisher Version: 1.1.76
-Generated Thu Jul 01 19:16:14 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
+Generated Thu Jul 01 19:20:03 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
 
  Build Errors : 162 / 0 / 0
  /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/ImplementationGuide-alvearie.fhir.ig : 0 / 0 / 1
