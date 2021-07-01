@@ -2,7 +2,7 @@ Profile:        CDMAppointment
 Parent:         Appointment
 Id:             cdm-appointment
 Title:          "CDM Appointment"
-Description:    "IBM Health Data Connect Common Data Model definition of what fields we currently define for an appointment"
+Description:    "TEST TEST TEST"
 * contained 0..0
 * meta only ProcessMeta
 
