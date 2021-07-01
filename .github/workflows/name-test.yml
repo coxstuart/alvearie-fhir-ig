@@ -11,17 +11,20 @@ jobs:
           echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
           echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
 
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@v2
 
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '3'
+          with:
+            ruby-version: '3'
 
-      - name: Run Sushi
+      - name: Install Dependencies
         run:  |
           npm install
           gem install jekyll
+
+      - name: Build IG
+        run:  |
           npm run sushi
           npm run ig_init
