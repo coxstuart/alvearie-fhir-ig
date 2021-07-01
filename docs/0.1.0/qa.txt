@@ -3,7 +3,7 @@
 
 err = 3, warn = 13, info = 0
 IG Publisher Version: 1.1.76
-Generated Thu Jul 01 16:53:36 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
+Generated Thu Jul 01 17:06:04 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
 
  Build Errors : 162 / 0 / 0
  /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/ImplementationGuide-alvearie.fhir.ig : 0 / 0 / 1
@@ -34,9 +34,9 @@ Generated Thu Jul 01 16:53:36 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#
 </table>
 == n/a ==
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
-ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1268: The link 'CDMPatientInstance' for "CDMPatientInstance" cannot be resolved
-ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1583: The link 'DrKelly' for "DrKelly" cannot be resolved
-ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1823: The link 'KellyClinic' for "KellyClinic" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1265: The link 'CDMPatientInstance' for "CDMPatientInstance" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1580: The link 'DrKelly' for "DrKelly" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 166, column 1818: The link 'KellyClinic' for "KellyClinic" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.json.html#/html/body/div/div/div/p/a at Line 340, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Appointment-AppointmentExample.ttl.html#/html/body/div/div/div/p/a at Line 326, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved

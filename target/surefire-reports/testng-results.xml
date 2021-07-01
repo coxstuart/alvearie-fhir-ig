@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-01T16:53:56Z" name="Surefire suite" finished-at="2021-07-01T16:53:58Z" duration-ms="2157">
+  <suite name="Surefire suite" duration-ms="2287" started-at="2021-07-01T17:06:25Z" finished-at="2021-07-01T17:06:28Z">
     <groups>
     </groups>
-    <test started-at="2021-07-01T16:53:56Z" name="Surefire test" finished-at="2021-07-01T16:53:58Z" duration-ms="2157">
+    <test name="Surefire test" duration-ms="2287" started-at="2021-07-01T17:06:25Z" finished-at="2021-07-01T17:06:28Z">
       <class name="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest">
-        <test-method signature="testConstraintGenerator()[pri:0, instance:com.ibm.fhir.ig.cdm.ConstraintGeneratorTest@4e91d63f]" started-at="2021-07-01T16:53:56Z" name="testConstraintGenerator" finished-at="2021-07-01T16:53:58Z" duration-ms="2143" status="PASS">
+        <test-method status="PASS" signature="testConstraintGenerator()[pri:0, instance:com.ibm.fhir.ig.cdm.ConstraintGeneratorTest@b684286]" name="testConstraintGenerator" duration-ms="2246" started-at="2021-07-01T17:06:25Z" finished-at="2021-07-01T17:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConstraintGenerator -->
