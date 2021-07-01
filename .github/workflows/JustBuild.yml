@@ -1,6 +1,5 @@
 name: Build And Publish
 on: push
-  push
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
