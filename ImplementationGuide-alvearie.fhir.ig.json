@@ -10,7 +10,7 @@
   "name": "AlvearieFHIRImplementationGuide",
   "title": "Alvearie FHIR Implementation Guide",
   "status": "active",
-  "date": "2021-07-01T19:57:29+00:00",
+  "date": "2021-07-01T20:20:40+00:00",
   "contact": [
     {
       "name": "Kim Kenna",
@@ -320,7 +320,7 @@
           "reference": "StructureDefinition/cdm-appointment"
         },
         "name": "CDM Appointment",
-        "description": "IBM Health Data Connect Common Data Model definition of what fields we currently define for an appointment",
+        "description": "TEST TEST TEST",
         "exampleBoolean": false
       },
       {

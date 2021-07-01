@@ -3,7 +3,7 @@
 
 err = 3, warn = 13, info = 0
 IG Publisher Version: 1.1.76
-Generated Thu Jul 01 19:57:47 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
+Generated Thu Jul 01 20:20:58 UTC 2021. FHIR version 4.0.1 for alvearie.fhir.ig#0.1.0 (canonical = http://ibm.com/fhir/cdm)
 
  Build Errors : 162 / 0 / 0
  /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/input/ImplementationGuide-alvearie.fhir.ig : 0 / 0 / 1
@@ -63,7 +63,7 @@ ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/Structur
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.json.html#/html/body/div/div/div/p/a at Line 3205, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.ttl.html#/html/body/div/div/div/p/a at Line 2792, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
-ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2887, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
+ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-cdm-appointment.profile.xml.html#/html/body/div/div/div/p/a at Line 2886, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
 ERROR: /home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/output/StructureDefinition-ingestion-batch-id.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'sloand@us.ibm.com' for "" cannot be resolved
