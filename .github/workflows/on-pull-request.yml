@@ -17,30 +17,30 @@ jobs:
         if: github.event.pull_request.merged && github.ref == 'refs/heads/master'
         run: echo "My PR WAS merged, run this now!"
 
-#      - name: Checkout Repo
-#        uses: actions/checkout@v2
-#
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
 #      - name: Setup Ruby
 #        uses: actions/setup-ruby@v1
 #        with:
 #          ruby-version: '3'
 #          bundler-cache: true   # Runs 'bundle install' and caches installed gems automatically
-#
+
 #      - name: Setup Java / Maven
 #        uses: actions/setup-java@v2
 #        with:
 #          java-version: '8'
 #          distribution: 'adopt'          
-#
-#      - name: Install Dependencies
-#        run:  |
-#          npm install
+
+      - name: Install Dependencies
+        run:  |
+          npm install
 #          gem install jekyll
 #          mvn clean install
 #
-#      - name: Build IG
-#        run:  |
-#          npm run sushi
+      - name: Build IG
+        run:  |
+          npm run sushi
 #          npm run ig_init
 #
 #      - name: Create Snapshot Jar
