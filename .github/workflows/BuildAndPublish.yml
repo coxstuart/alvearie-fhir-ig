@@ -1,7 +1,7 @@
-name: name test
+name: Build And Publish
 on:  [push]
 jobs:
-  name-test:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
@@ -39,7 +39,7 @@ jobs:
 
       - name: Create Snapshot Jar
         run:  |
-          npm run mvn_snapshot    
+          npm run mvn_snapshot
           npm run copy_snapshot
 
       - name: Deploy gh-pages
@@ -47,3 +47,14 @@ jobs:
         with:
           branch: gh-pages      # The branch to deploy to
           folder: build/output  # Folder to deploy
+
+#      - name: Copy To Documents Folder
+#      - run: npm run copy_docs_version
+
+#      - name: Commit Changes
+#        run: |
+#          git config user.name github-actions
+#          git config user.email github.actions@github.com
+#          git add .
+#          git commit -m "Generated docs"
+#          git push          
