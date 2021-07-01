@@ -2,7 +2,7 @@ Profile:        CDMAppointment
 Parent:         Appointment
 Id:             cdm-appointment
 Title:          "CDM Appointment"
-Description:    "TEST MOD FIVE FOR 55"
+Description:    "Test with SEVEN apppointments"
 * contained 0..0
 * meta only ProcessMeta
 
