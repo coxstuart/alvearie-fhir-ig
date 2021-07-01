@@ -1,1 +1,1 @@
-/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/build/temp/pages/StructureDefinition-process-record-id.sch
+/home/runner/work/alvearie-fhir-ig/alvearie-fhir-ig/build/temp/pages/StructureDefinition-process-record-id.sch
