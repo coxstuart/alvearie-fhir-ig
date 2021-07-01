@@ -15,7 +15,7 @@ jobs:
           echo "🐧 Now running on a ${{ runner.os }} server hosted by GitHub!"
           echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
           echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
-          echo "The event.pull_request is ${{ github.event.pull_request }}"
+          echo "The event.type is ${{ github.event.type }}"
           echo "The event.pull_request.merged is ${{ github.event.pull_request.merged}}"
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
