@@ -1,6 +1,6 @@
 name: Build And Publish
 on:  
-  pull-request:
+  pull_request:
     types: [closed]
     branches: [master]
 jobs:
