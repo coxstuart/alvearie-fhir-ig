@@ -21,7 +21,7 @@ jobs:
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
 
-      - name: ECHO - ONLY ON MERGED PR
+      - name: ECHO - ONLY ON MASTER PUSH
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: echo "My PR was merged, run this now!"
 
