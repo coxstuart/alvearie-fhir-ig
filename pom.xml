@@ -5,10 +5,6 @@
   <groupId>com.ibm.fhir.cdm</groupId>
   <artifactId>ig-common-data-model</artifactId>
   <version>0.1.1-SNAPSHOT</version>
-  <properties>
-    <maven.compiler.source>14</maven.compiler.source>
-    <maven.compiler.target>14</maven.compiler.target>
-  </properties>
   <build>
     <pluginManagement>
       <plugins>
