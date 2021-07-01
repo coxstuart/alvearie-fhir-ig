@@ -1,7 +1,7 @@
-name: Just Publish
-on: push
+name: Build And Publish v2
+on: push 
 jobs:
-  just-build:
+  build-and-publish-2:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
@@ -41,6 +41,13 @@ jobs:
         run:  |
           npm run mvn_snapshot
           npm run copy_snapshot
+
+      - name: Deploy gh-pages
+        if: github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages      # The branch to deploy to
+          folder: build/output  # Folder to deploy
 
 #      - name: Copy To Documents Folder
 #      - run: npm run copy_docs_version
