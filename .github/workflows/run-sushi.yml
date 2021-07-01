@@ -38,9 +38,11 @@ jobs:
           git commit -m "Generated docs"
           git push
 
-      - uses: JamesIves/github-pages-deploy-action@4.1.4
-        branch: gh-pages
-        folder: build/output
+      - name: Deploy gh-pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages      # The branch to deploy to
+          folder: build/output  # Folder to deploy
 
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
