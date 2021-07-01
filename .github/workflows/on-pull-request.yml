@@ -1,5 +1,10 @@
 name: Build And Publish v3
-on: pull_request
+on: 
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
 jobs:
   build-and-publish-3:
     runs-on: ubuntu-latest
@@ -10,12 +15,14 @@ jobs:
           echo "🐧 Now running on a ${{ runner.os }} server hosted by GitHub!"
           echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
           echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
+          echo "The event.type is ${{ github.event.type }}"
+          echo "The event.pull_request.merged is ${{ github.event.pull_request.merged}}"
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
 
       - name: ECHO - ONLY ON MERGED PR
-        if: github.event.pull_request.merged && github.ref == 'refs/heads/master'
-        run: echo "My PR WAS merged, run this now!"
+        if: github.event.pull_request.merged && github.ref == 'master'
+        run: echo "My PR was merged, run this now!"
 
       - name: Checkout Repo
         uses: actions/checkout@v2
