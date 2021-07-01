@@ -26,6 +26,7 @@ jobs:
       
       - run: mvn clean install
       - run: npm run mvn_snapshot
+      - run: npm run copy_snapshot
 
       - run: npm run copy_docs_version
 

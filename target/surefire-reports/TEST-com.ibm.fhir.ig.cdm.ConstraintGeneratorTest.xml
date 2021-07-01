@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="1.713" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="2.365" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire/surefirebooter8913057363810454513.jar /Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire 2021-07-01T10-51-35_692-jvmRun1 surefire7659901404737524641tmp surefire_09558019714534441693tmp"/>
+    <property name="sun.java.command" value="/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire/surefirebooter11212120457934512723.jar /Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire 2021-07-01T11-15-55_563-jvmRun1 surefire5434270479934973684tmp surefire_018275542525974845774tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/test-classes:/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/classes:/Users/stuartcoxus.ibm.com/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/owasp/encoder/encoder/1.2.3/encoder-1.2.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-core/4.8.3/fhir-core-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1.jar:/Users/stuartcoxus.ibm.com/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-model/4.8.3/fhir-model-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-path/4.8.3/fhir-path-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-term/4.8.3/fhir-term-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-cache/4.8.3/fhir-cache-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.0/caffeine-2.9.0.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-profile/4.8.3/fhir-profile-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/ibm/fhir/fhir-registry/4.8.3/fhir-registry-4.8.3.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/testng/testng/6.9.13.6/testng-6.9.13.6.jar:/Users/stuartcoxus.ibm.com/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/apache/ant/ant/1.9.7/ant-1.9.7.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/stuartcoxus.ibm.com/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire/surefirebooter8913057363810454513.jar"/>
+    <property name="surefire.real.class.path" value="/Users/stuartcoxus.ibm.com/github.com/coxstuart/alvearie-fhir-ig/target/surefire/surefirebooter11212120457934512723.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+0"/>
     <property name="user.name" value="stuartcoxus.ibm.com"/>
@@ -51,5 +51,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testConstraintGenerator" classname="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="1.471"/>
+  <testcase name="testConstraintGenerator" classname="com.ibm.fhir.ig.cdm.ConstraintGeneratorTest" time="2.054"/>
 </testsuite>
