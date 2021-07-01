@@ -10,3 +10,14 @@ jobs:
           echo "🐧 Now running on a ${{ runner.os }} server hosted by GitHub!"
           echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
           echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - nmae: Run Sushi
+        run:  |
+          npm install
+          gem install jekyll
+          npm run sushi
+          npm run ig_init
+                    
