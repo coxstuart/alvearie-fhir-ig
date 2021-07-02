@@ -54,7 +54,7 @@ jobs:
       - name: Add Snapshot Jar to full-ig.zip
         run: zip -ur build/output/full-ig.zip build/output/*.jar 
 
-          - name: Deploy Github Pages
+      - name: Deploy Github Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
