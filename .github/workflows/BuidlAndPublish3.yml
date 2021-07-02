@@ -21,10 +21,6 @@ jobs:
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
 
-      - name: ECHO - ONLY ON MASTER PUSH
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        run: echo "Pushed to master, run this now!"
-
       - name: Checkout Repo
         uses: actions/checkout@v2
 
@@ -55,7 +51,10 @@ jobs:
           npm run mvn_snapshot
           npm run copy_snapshot
 
-      - name: Deploy gh-pages
+      - name: Add Snapshot Jar to full-ig.zip
+        run: zip -ur build/output/full-ig.zip build/output/*.jar 
+
+          - name: Deploy Github Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
