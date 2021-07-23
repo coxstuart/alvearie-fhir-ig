@@ -25,4 +25,5 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           MD_FOLDER: temp_release_notes
           REPO_NAME: alvearie-fhir-ig
-          SKIP_MD: README.md          
+          SKIP_MD: README.md
+          TRANSLATE_UNDERSCORE_TO_SPACE: "true"          
