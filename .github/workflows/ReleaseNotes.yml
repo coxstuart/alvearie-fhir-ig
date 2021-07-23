@@ -19,10 +19,10 @@ jobs:
       - name: Upload Release Notes to Wiki
         uses: docker://decathlon/wiki-page-creator-action:latest
         env:
-          ACTION_MAIL: release@users.noreply.github.com
-          ACTION_NAME: release
+          ACTION_MAIL: cox.stuart@gmail.com 
+          ACTION_NAME: coxstuart
+          OWNER: coxstuart
           GH_PAT: ${{ secrets.GH_PAT }}
           MD_FOLDER: temp_release_notes
-          OWNER: coxstuart
           REPO_NAME: alvearie-fhir-ig
           SKIP_MD: README.md          
