@@ -19,13 +19,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Set Env
+      - name: Write dotenv
         run: |
-          touch .env
-          echo MYBRANCH=${{ github.ref }} >> .env
-          echo MYBRANCH is ${MYBRANCH}
-          echo env.MYBRANCH is ${{ env.MYBRANCH }}
-          echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
+          npm run write_dotenv
+
+      - name: Read dotenv
+        uses: actions/dotenv-action
 
       - name: Runner Info
         run: |
@@ -38,15 +37,8 @@ jobs:
           echo "The ref is ${{ github.ref }}"
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
-          npm install
-          npm run set_release_version_1
-          npm run set_release_version_2
-          echo 'env.IG_RELEASE_VERSION_1 is ${{ env.IG_RELEASE_VERSION_1 }}'
-          echo 'IG_RELEASE_VERSION_1 is $IG_RELEASE_VERSION_1'
-          echo 'env.IG_RELEASE_VERSION_2 is ${{ env.IG_RELEASE_VERSION_2 }}'
-          echo 'IG_RELEASE_VERSION_2 is $IG_RELEASE_VERSION_2'
-          echo 'env.IG_REL_VER is ${{ env.IG_REL_VER }}'
-          echo 'IG_REL_VER is $IG_REL_VER'
+          echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
+          echo IG_REL_VER is ${IG_REL_VER}
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
