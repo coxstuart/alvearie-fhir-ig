@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IG_REL_VER: 3.4.5
+      ENV_FILE: .env
 
     steps:
       - name: Checkout Repo
@@ -23,10 +24,13 @@ jobs:
         run: |
           npm run write_dotenv
 
-      - name: Read dotenv
-        uses: ./.github/actions/dotenv-action
-        with:
-            path: .env  
+      - name: Import environment variables from a file
+        id: import-env
+        shell: bash
+        run: |
+          while read line; do
+            echo "$line" >> $GITHUB_ENV
+          done < ${{ env.ENV_FILE }}
 
       - name: Runner Info
         run: |
