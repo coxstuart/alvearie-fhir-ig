@@ -28,7 +28,8 @@ jobs:
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
           npm install
-          echo "The env.npm_package_name is ${{ env.npm_package_version }}"
+          npm run sushi
+          echo "The env.version is ${{ env.npm_package_version }}"
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
