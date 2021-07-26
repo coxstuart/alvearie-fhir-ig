@@ -24,13 +24,18 @@ jobs:
         run: |
           npm run write_dotenv
 
+      - name: Get HELP_TEXT
+        run: |
+          echo ::set-env name=HELP_TEXT::$(node -h)
+
+      - name: Print HELP_TEXT
+        run: |
+          echo "$HELP_TEST"
+
       - name: Import environment variables from a file
         id: import-env
         shell: bash
         run: |
-          while read line; do
-            echo "$line" >> $GITHUB_ENV
-          done < ${{ env.ENV_FILE }}
 
       - name: Runner Info
         run: |
@@ -53,5 +58,6 @@ jobs:
           config-name: ReleaseDrafterConfig.yml
           disable-autolabeler: true
           version: ${{ env.IG_REL_VER }}
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
