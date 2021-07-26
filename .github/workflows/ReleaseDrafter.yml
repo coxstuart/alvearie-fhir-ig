@@ -12,6 +12,9 @@ on:
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest
+    env:
+      IG_REL_VER: 3.4.5
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
@@ -22,6 +25,7 @@ jobs:
           echo MYBRANCH=${{ github.ref }} >> .env
           echo MYBRANCH is ${MYBRANCH}
           echo env.MYBRANCH is ${{ env.MYBRANCH }}
+          echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
 
       - name: Runner Info
         run: |
