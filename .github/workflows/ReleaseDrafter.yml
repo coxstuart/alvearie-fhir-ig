@@ -28,8 +28,12 @@ jobs:
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
           npm install
-          npm run set_release_version
-          echo "The env.RELEASE_VERION is ${{ env.RELEASE_VERSION }}"
+          npm run set_release_version_1
+          npm run set_release_version_2
+          echo env.IG_RELEASE_VERION_1 is ${{ env.IG_RELEASE_VERSION_1 }}
+          echo IG_RELEASE_VERION_1 is $IG_RELEASE_VERSION_1
+          echo env.IG_RELEASE_VERION_2 is ${{ env.IG_RELEASE_VERSION_2 }}
+          echo IG_RELEASE_VERION_2 is $IG_RELEASE_VERSION_2
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
