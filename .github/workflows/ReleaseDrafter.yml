@@ -24,7 +24,9 @@ jobs:
           npm run write_dotenv
 
       - name: Read dotenv
-        uses: actions/dotenv-action
+        uses: ./.github/actions/dotenv-action
+        with:
+            path: .env  
 
       - name: Runner Info
         run: |
