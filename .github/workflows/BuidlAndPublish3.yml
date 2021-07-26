@@ -20,6 +20,7 @@ jobs:
           echo "The ref is ${{ github.ref }}"
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
+          echo "The env.npm_package_version is ${{ env.npm_package_version }}"
 
       - name: Checkout Repo
         uses: actions/checkout@v2
