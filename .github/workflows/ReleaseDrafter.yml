@@ -13,6 +13,9 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
       - name: Runner Info
         run: |
           echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -24,6 +27,7 @@ jobs:
           echo "The ref is ${{ github.ref }}"
           echo "The base_ref is ${{ github.base_ref }}"
           echo "The head_ref is ${{ github.head_ref }}"
+          echo "npm install"
           echo "The env.npm_package_name is ${{ env.npm_package_version }}"
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
