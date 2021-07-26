@@ -52,5 +52,6 @@ jobs:
         with:
           config-name: ReleaseDrafterConfig.yml
           disable-autolabeler: true
+          version: ${{ env.IG_REL_VER }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
