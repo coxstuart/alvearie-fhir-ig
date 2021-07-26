@@ -29,7 +29,7 @@ jobs:
           echo "The head_ref is ${{ github.head_ref }}"
           npm install
           npm run set_release_version
-          echo "The env.version is ${{ env.npm_package_version }}"
+          echo "The env.RELEASE_VERION is ${{ env.RELEASE_VERSION }}"
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
