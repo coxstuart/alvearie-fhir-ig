@@ -50,7 +50,6 @@ jobs:
           echo "The head_ref is ${{ github.head_ref }}"
           echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
           echo IG_REL_VER is ${IG_REL_VER}
-          echo GITHUB_ENV is ${{ GITHUB_ENV }}
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
