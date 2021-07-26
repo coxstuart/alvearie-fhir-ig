@@ -16,6 +16,13 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
+      - name: Set Env
+        run: |
+          touch .env
+          echo MYBRANCH=${{ github.ref }} >> .env
+          echo MYBRANCH is ${MYBRANCH}
+          echo env.MYBRANCH is ${{ env.MYBRANCH }}
+
       - name: Runner Info
         run: |
           echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
