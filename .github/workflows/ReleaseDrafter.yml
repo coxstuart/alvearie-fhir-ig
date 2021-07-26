@@ -23,14 +23,14 @@ jobs:
       - name: Write dotenv
         run: |
           npm run write_dotenv
-
-      - name: Get HELP_TEXT
-        run: |
-          echo ::set-env name=HELP_TEXT::$(node -h)
+          echo "action_state-yellow" >> $GITHUB_ENV
+          echo "GITHUB_ENV is $GITHUB_ENV" 
 
       - name: Print HELP_TEXT
         run: |
           echo "$HELP_TEST"
+          echo "actionstate is ${{ env.action_state }}" # This will output 'yellow'
+          echo "IG_REL_VER is ${{ env.IG_REL_VER }}" 
 
       - name: Import environment variables from a file
         id: import-env
@@ -50,6 +50,7 @@ jobs:
           echo "The head_ref is ${{ github.head_ref }}"
           echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
           echo IG_REL_VER is ${IG_REL_VER}
+          echo GITHUB_ENV is ${{ GITHUB_ENV }}
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
