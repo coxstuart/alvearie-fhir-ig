@@ -20,44 +20,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Write dotenv
+      - name: Set the value
+        id: step_one
         run: |
-          npm run write_dotenv
           echo "action_state=yellow" >> $GITHUB_ENV
-          echo "GITHUB_ENV is $GITHUB_ENV" 
 
-      - name: Print HELP_TEXT
+      - name: Use the value
+        id: step_two
         run: |
-          echo "$HELP_TEST"
-          echo "actionstate is ${{ env.action_state }}" # This will output 'yellow'
-          echo "IG_REL_VER is ${{ env.IG_REL_VER }}" 
-
-      - name: Import environment variables from a file
-        id: import-env
-        shell: bash
-        run: |
-
-      - name: Runner Info
-        run: |
-          echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-          echo "🐧 Now running on a ${{ runner.os }} server hosted by GitHub!"
-          echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
-          echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
-          echo "The event_name is ${{ github.event_name }}"
-          echo "The event.pull_request.merged is ${{ github.event.pull_request.merged}}"
-          echo "The ref is ${{ github.ref }}"
-          echo "The base_ref is ${{ github.base_ref }}"
-          echo "The head_ref is ${{ github.head_ref }}"
-          echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
-          echo IG_REL_VER is ${IG_REL_VER}
-
-      # Drafts your next Release notes as Pull Requests are merged into "master"
-      - uses: release-drafter/release-drafter@v5
-        # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
-        with:
-          config-name: ReleaseDrafterConfig.yml
-          disable-autolabeler: true
-          version: ${{ env.IG_REL_VER }}
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "${{ env.action_state }}" # This will output 'yellow'
