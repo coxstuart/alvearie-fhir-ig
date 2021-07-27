@@ -37,19 +37,6 @@ jobs:
         shell: bash
         run: |
 
-      - name: Runner Info
-        run: |
-          echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-          echo "🐧 Now running on a ${{ runner.os }} server hosted by GitHub!"
-          echo "🔎 Branch is ${{ github.ref }} ${{ github.repository }} repo"
-          echo "💡 The ${{ github.repository }} repo has been cloned to the runner."
-          echo "The event_name is ${{ github.event_name }}"
-          echo "The event.pull_request.merged is ${{ github.event.pull_request.merged}}"
-          echo "The ref is ${{ github.ref }}"
-          echo "The base_ref is ${{ github.base_ref }}"
-          echo "The head_ref is ${{ github.head_ref }}"
-          echo env.IG_REL_VER is ${{ env.IG_REL_VER }}
-          echo IG_REL_VER is ${IG_REL_VER}
 
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5

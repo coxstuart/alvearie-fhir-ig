@@ -17,14 +17,23 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Set the value
-        id: step_one
+      - name: Set GH Release Vaersion
         run: |
           npm run set_gh_release_version
           echo "action_state=yellow" >> $GITHUB_ENV
 
-      - name: Use the value
-        id: step_two
+      - name: Runner Info
         run: |
-          echo "action_state is ${{ env.action_state }}" 
           echo "GH_RELEASE_VERSION is ${{ env.GH_RELEASE_VERSION }}" 
+
+      - uses: release-drafter/release-drafter@v5
+        # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
+        # Config file is in .github directory
+        with:
+          config-name: ReleaseDrafterConfig.yml
+          disable-autolabeler: true
+          version: ${{ env.GH_RELEASE_VERSION }}
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
