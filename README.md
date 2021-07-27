@@ -2,4 +2,5 @@
 
 Adding some stuff here to test release drafter behaviours
 Now that I have the action working, lets see what it does
-Just a test:  1, 2
+
+Test 1: Push with no branch, no issue
