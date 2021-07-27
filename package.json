@@ -1,6 +1,6 @@
 {
   "name": "alvearie.fhir.ig",
-  "version": "2.1.12",
+  "version": "2.0.13",
   "canonical": "http://alvearie.github.io/alvearie-fhir-ig/0.1.0",
   "url": "http://alvearie.github.io/alvearie-fhir-ig/0.1.0",
   "title": "Alvearie FHIR Implementation Guide",
