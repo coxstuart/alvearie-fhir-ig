@@ -24,8 +24,10 @@ jobs:
         id: step_one
         run: |
           npm run write_dotenv
-          echo $GITHUB_ENV
+          cat .env
+          echo "npm_package_version is ${{ env.npm_package_version}}"
           echo "action_state=yellow" >> $GITHUB_ENV
+          echo "npm_paackage_version=$npm_package_vesrsion"
 
       - name: Use the value
         id: step_two
