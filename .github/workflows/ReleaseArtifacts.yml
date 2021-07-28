@@ -29,9 +29,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: README.md
-          asset_name: Readme Markdown
-          asset_content_type: text/markdown
+          asset_path: ./pom.xml
+          asset_name: pom.xml
+          asset_content_type: text/xml
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
