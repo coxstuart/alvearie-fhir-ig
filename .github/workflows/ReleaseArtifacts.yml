@@ -49,7 +49,7 @@ jobs:
 #        with:
 #          release-url: ${{ github.event.release.upload_url }}         
 #          github-token: ${{ secrets.GITHUB_TOKEN }}
-          pattern: "*.md"
+#          pattern: "*.md"
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
