@@ -9,7 +9,7 @@ on:
       - created
       
 jobs:
-  build-project:
+  release-artifacts:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
@@ -40,7 +40,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           files: |
             pom.xml
-            LICENSE
+            config.yaml
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
