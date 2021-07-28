@@ -1,0 +1,70 @@
+name: Release Artivacts
+on:
+  release:
+    branches:
+      - master
+    tags:
+      - "*"
+      
+jobs:
+  release-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Runner Info
+        run: |
+          echo "The job was automatically triggered by a ${{ github.event_name }} event."
+          echo "Now running on a ${{ runner.os }} server hosted by GitHub!"
+          echo "Github repository is ${{ github.repository }}"
+          echo "Release tag is ${{ github.ref }}"
+          echo "Event_name is ${{ github.event_name }}"
+
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '3'
+
+      - name: Setup Java / Maven
+        uses: actions/setup-java@v2
+        with:
+          java-version: '8'
+          distribution: 'adopt'          
+
+      - name: Install Dependencies
+        run:  |
+          npm install
+          gem install jekyll
+          mvn clean install
+
+      - name: Build IG
+        run:  |
+          npm run sushi
+          npm run ig_init
+
+      - name: Create Snapshot Jar
+        run:  |
+          npm run mvn_snapshot
+          npm run copy_snapshot
+
+      - name: Add Snapshot Jar to full-ig.zip
+        run: zip -ur build/output/full-ig.zip build/output/*.jar 
+
+      - name: Upload Release Asset (full-ig.zip)
+        uses: actions/upload-artifact@v2
+        with:
+          name: Full IG Site Specification (fullig.zip)
+          path: build/output/Full-IG.zip
+
+      - name: Upload Release Asset (snapshot.jar)
+        uses: actions/upload-artifact@v2
+        with:
+          name: FHIR Deployment Snapshot Jar
+          path: build/output/*.jar
+
+      - name: Upload Release Asset (Package.tgz)
+        uses: actions/upload-artifact@v2
+        with:
+          name: Package Tar Archive (package.tgz)
+          path: build/output/package.tgz
