@@ -1,13 +1,15 @@
-name: Release Artivacts
+name: Release Artifacts
 on:
   release:
     branches:
       - master
     tags:
       - "*"
+    types:
+      - created
       
 jobs:
-  release-artifacts:
+  build-project:
     runs-on: ubuntu-latest
     steps:
       - name: Runner Info
@@ -21,50 +23,36 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Setup Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '3'
-
-      - name: Setup Java / Maven
-        uses: actions/setup-java@v2
-        with:
-          java-version: '8'
-          distribution: 'adopt'          
-
-      - name: Install Dependencies
-        run:  |
-          npm install
-          gem install jekyll
-          mvn clean install
-
-      - name: Build IG
-        run:  |
-          npm run sushi
-          npm run ig_init
-
-      - name: Create Snapshot Jar
-        run:  |
-          npm run mvn_snapshot
-          npm run copy_snapshot
-
-      - name: Add Snapshot Jar to full-ig.zip
-        run: zip -ur build/output/full-ig.zip build/output/*.jar 
-
-      - name: Upload Release Asset (full-ig.zip)
+      - name: Upload Readme.md
         uses: actions/upload-artifact@v2
         with:
-          name: Full IG Site Specification (fullig.zip)
-          path: build/output/Full-IG.zip
+          name: readme
+          path: readme.md
 
-      - name: Upload Release Asset (snapshot.jar)
-        uses: actions/upload-artifact@v2
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: FHIR Deployment Snapshot Jar
-          path: build/output/*.jar
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./readme.md
+          asset_name: Readme Markdown
+          asset_content_type: text/markdown
 
-      - name: Upload Release Asset (Package.tgz)
-        uses: actions/upload-artifact@v2
-        with:
-          name: Package Tar Archive (package.tgz)
-          path: build/output/package.tgz
+#      - name: Upload Release Asset (full-ig.zip)
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: Full IG Site Specification (fullig.zip)
+#          path: build/output/full-ig.zip
+
+#      - name: Upload Release Asset (snapshot.jar)
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: FHIR Deployment Snapshot Jar
+#          path: build/output/*.jar
+
+#      - name: Upload Release Asset (Package.tgz)
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: Package Tar Archive (package.tgz)
+#          path: build/output/package.tgz
