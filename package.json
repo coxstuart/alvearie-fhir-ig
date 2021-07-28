@@ -6,8 +6,7 @@
   "title": "Alvearie FHIR Implementation Guide",
   "description": "Alvearie FHIR Profiles",
   "devDependencies": {
-    "fsh-sushi": "^0.16.0",
-    "github-release-notes": "^0.17.3"
+    "fsh-sushi": "^0.16.0"
   },
   "scripts": {
     "sushi": "sushi data",
