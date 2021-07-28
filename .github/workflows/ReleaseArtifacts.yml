@@ -41,6 +41,7 @@ jobs:
           files: |
             pom.xml
             config.yaml
+          pattern: *.md
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
