@@ -6,7 +6,7 @@ on:
     tags:
       - "*"
     types:
-      - created
+      - publshed
       
 jobs:
   release-artifacts:
