@@ -41,6 +41,8 @@ jobs:
           files: |
             pom.xml
             config.yaml
+          env: 
+            GH_URL: https://api.github.com
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
