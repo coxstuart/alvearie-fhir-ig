@@ -36,12 +36,11 @@ jobs:
       - name: Upload Assets to Release with a wildcard
         uses: csexton/release-asset-action@v2
         with:
+          release-url: ${{ steps.create_release.outputs.upload_url }}          
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           files: |
             pom.xml
             LICENSE
-          pattern:  "*.md"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-       release-url: ${{ steps.create_release.outputs.upload_url }}          
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
