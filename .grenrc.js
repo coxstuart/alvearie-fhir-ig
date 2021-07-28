@@ -5,7 +5,7 @@ module.exports = {
     "ignoreIssuesWith": ["help wanted", "good first issue", "invalid", "question", "wontfix", "spike"],
     "onlyMilestones": false,
     "groupBy": {},
-    "changelogFilename": "CHANGELOG.md",
+    "changelogFilename": "ReleaseNotes.md",
     "groupBy": {
         "BREAKING CHANGES 💔": ["breaking change", "breaking"],
         "FEATURES ⭐️": ["enhancement", "feature", "ig profiling"],
@@ -18,8 +18,16 @@ module.exports = {
         label: "[**{{label}}**]",
         noLabel: "bug",
         group: "\n#### {{heading}}\n",
-        changelogTitle: "# Release Notes\n\n",
-        release: "## {{release}} ({{date}})\n{{body}}",
+        changelogTitle: "## Release Notes\n\n",
+        release_old: "## {{release}} ({{date}})\n{{body}}",
+        release: function (placeholders,body) {
+            var parts = placeholders.date.split("/");
+            var newDate = new Date(parseInt(parts[2], 10),
+                              parseInt(parts[1], 10) - 1,
+                              parseInt(parts[0], 10));
+            var formattedDate = (newDate.getFullYear() >= 1970) ? newDate.toLocaleDateString("us-en") : "(DRAFT)";
+            return `## ${placeholders.release} ${formattedDate}\n${placeholders.body}`
+        },
         releaseSeparator: "\n---\n\n"
     }    
 }
