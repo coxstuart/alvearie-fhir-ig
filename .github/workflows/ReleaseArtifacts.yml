@@ -23,19 +23,13 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Upload Readme.md
-        uses: actions/upload-artifact@v2
-        with:
-          name: readme
-          path: readme.md
-
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./readme.md
+          asset_path: ./README.md
           asset_name: Readme Markdown
           asset_content_type: text/markdown
 
