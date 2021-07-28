@@ -30,7 +30,7 @@ jobs:
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./pom.xml
-          asset_name: POM File (pom.xml)
+          asset_name: "POM File 3 (pom.xml)"
           asset_content_type: text/xml
 
 #      - name: Upload Release Asset (full-ig.zip)
