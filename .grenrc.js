@@ -7,9 +7,9 @@ module.exports = {
     "groupBy": {},
     "changelogFilename": "CHANGELOG.md",
     "groupBy": {
-        "BREAKING CHANGES": ["breaking change"],
+        "BREAKING CHANGES 💔": ["breaking change", "breaking"],
         "FEATURES ⭐️": ["enhancement", "feature", "ig profiling"],
-        "BUG FIXES 🐞": ["bug", "bug fix", "typo"],
+        "BUG FIXES 🕸": ["bug", "bug fix", "typo"],
         "DOCUMENTATION 📚": ["documentation"]    
     },
     "template": {
