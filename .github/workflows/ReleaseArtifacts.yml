@@ -86,10 +86,9 @@ jobs:
             build/output/package.tgz
             build/output/definitions.json.zip
             build/output/examples.json.zip
-            build/ouptut/definitions.xml.zip
-            build/ouptut/examples.xml.zip
-            build/ouptut/definitions.ttl.zip
-          pattern: "build/output/*.jar"
+            build/output/definitions.xml.zip
+            build/output/examples.xml.zip
+            build/output/definitions.ttl.zip
 
       # --------------------------------------------------------------------------------------------
       # ADD RELEASE NOTES BASE ON CLOSED ISSUES
