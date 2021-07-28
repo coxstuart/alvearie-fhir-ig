@@ -23,15 +23,25 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Upload Release Asset
+#        uses: actions/upload-release-asset@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          upload_url: ${{ github.event.release.upload_url }}
+#          asset_path: ./pom.xml
+#          asset_name: "POM File 3 (pom.xml)"
+#          asset_content_type: text/xml
+
+      - name: Upload Assets to Release with a wildcard
+        uses: csexton/release-asset-action@v2
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./pom.xml
-          asset_name: "POM File 3 (pom.xml)"
-          asset_content_type: text/xml
+          files: |
+            pom.xml
+            LICENSE
+          pattern:  "*.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+       release-url: ${{ steps.create_release.outputs.upload_url }}          
 
 #      - name: Upload Release Asset (full-ig.zip)
 #        uses: actions/upload-artifact@v2
