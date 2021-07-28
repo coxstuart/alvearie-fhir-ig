@@ -33,7 +33,7 @@ jobs:
 #          asset_name: "POM File 3 (pom.xml)"
 #          asset_content_type: text/xml
 
-      - name: Upload Assets to Release with a wildcard
+      - name: Upload Assets to Release with a file list
         uses: csexton/release-asset-action@v2
         with:
           release-url: ${{ github.event.release.upload_url }}         
@@ -41,6 +41,13 @@ jobs:
           files: |
             pom.xml
             config.yaml
+
+
+      - name: Upload Assets to Release with a wildcard
+        uses: csexton/release-asset-action@v2
+        with:
+          release-url: ${{ github.event.release.upload_url }}         
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           pattern: *.md
 
 #      - name: Upload Release Asset (full-ig.zip)
