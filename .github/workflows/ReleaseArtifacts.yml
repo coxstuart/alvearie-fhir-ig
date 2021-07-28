@@ -57,7 +57,7 @@ jobs:
       # See https://github.com/github-tools/github-release-notes for more details
       - name: Update release notes (gren)
         env:
-            GREN_GITHUB_TOKEN=${{ secrets.GREN_GITHUB_TOKEN }}
+            GREN_GITHUB_TOKEN: ${{ secrets.GREN_GITHUB_TOKEN }}
         run: |
             npm install github-release-notes -g
             gren release --tags=${{ github.event.release.tag_name }} --override
