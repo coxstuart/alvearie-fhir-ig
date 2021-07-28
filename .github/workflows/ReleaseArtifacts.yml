@@ -35,10 +35,8 @@ jobs:
 
       - name: Upload Assets to Release with a wildcard
         uses: csexton/release-asset-action@v2
-        env: 
-          GH_URL: https://api.github.com
         with:
-          release-url: ${{ steps.create_release.outputs.upload_url }}          
+          release-url: ${{ github.event.release.upload_url }}         
           github-token: ${{ secrets.GITHUB_TOKEN }}
           files: |
             pom.xml
