@@ -12,59 +12,55 @@ jobs:
   release-artifacts:
     runs-on: ubuntu-latest
     steps:
-      - name: Runner Info
-        run: |
-          echo "The job was automatically triggered by a ${{ github.event_name }} event."
-          echo "Now running on a ${{ runner.os }} server hosted by GitHub!"
-          echo "Github repository is ${{ github.repository }}"
-          echo "Release tag is ${{ github.ref }}"
-          echo "Event_name is ${{ github.event_name }}"
+      - name: Dump Env VARIABLES
+        run: env | sort
 
-      - name: Checkout Repo
-        uses: actions/checkout@v2
+      - name: Dump Github Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
 
-#      - name: Upload Release Asset
-#        uses: actions/upload-release-asset@v1
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        with:
-#          upload_url: ${{ github.event.release.upload_url }}
-#          asset_path: ./pom.xml
-#          asset_name: "POM File 3 (pom.xml)"
-#          asset_content_type: text/xml
-
-      - name: Upload Assets to Release with a file list
-        uses: csexton/release-asset-action@v2
-        with:
-          release-url: ${{ github.event.release.upload_url }}         
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          files: |
-            pom.xml
-            config.yaml
-          pattern: "*.md"
-
-
-#      - name: Upload Assets to Release with a wildcard
+#      - name: Upload Assets to Release (full-ig-zip))
 #        uses: csexton/release-asset-action@v2
 #        with:
 #          release-url: ${{ github.event.release.upload_url }}         
 #          github-token: ${{ secrets.GITHUB_TOKEN }}
-#          pattern: "*.md"
+#          files: |
+#            build/output/full-ig.zip
+#            build/output/
+#          pattern: "build/output/*.jar"
 
-#      - name: Upload Release Asset (full-ig.zip)
-#        uses: actions/upload-artifact@v2
+#      - name: Upload Assets to Release (snapshot jar))
+#        uses: csexton/release-asset-action@v2
 #        with:
-#          name: Full IG Site Specification (fullig.zip)
-#          path: build/output/full-ig.zip
+#          release-url: ${{ github.event.release.upload_url }}         
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
+#          pattern: "build/output/*.jar"
 
-#      - name: Upload Release Asset (snapshot.jar)
-#        uses: actions/upload-artifact@v2
+#      - name: Upload Assets to Release with a file list
+#        uses: csexton/release-asset-action@v2
 #        with:
-#          name: FHIR Deployment Snapshot Jar
-#          path: build/output/*.jar
+#          release-url: ${{ github.event.release.upload_url }}         
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
+#          files: |
+#            build/output/package.tgz
+#            build/output/definitions.json.zip
+#            build/output/examples.json.zip
+#            build/ouptut/definitions.xml.zip
+#            build/ouptut/examples.xml.zip
+#            build/ouptut/definitions.ttl.zip
+#          pattern: "build/output/*.jar"
 
-#      - name: Upload Release Asset (Package.tgz)
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: Package Tar Archive (package.tgz)
-#          path: build/output/package.tgz
+      # Gren is used to update ReleaseNotes.md and release note comments (based on closed issues since last release)
+      # Issue tags are used to control sections
+      # Gren configuration is stored in .grenrc.js
+      # See https://github.com/github-tools/github-release-notes for more details
+      - name: Update release notes (gren)
+        env:
+            GREN_GITHUB_TOKEN=${{ secrets.GREN_GITHUB_TOKEN }}
+        run: |
+            npm install github-release-notes -g
+            gren changelog --override 
+            git commit -am "Github action - gren updated RealeasNotes.md on release {{ github.event.release.tag_name }}" 
+            gren release --tags=${{ github.event.release.tag_name }} --override
+
