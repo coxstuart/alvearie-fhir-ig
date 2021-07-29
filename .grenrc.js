@@ -10,7 +10,8 @@ module.exports = {
         "BREAKING CHANGES 💔": ["breaking change", "breaking"],
         "FEATURES ⭐️": ["enhancement", "feature", "ig profiling"],
         "BUG FIXES 🕸": ["bug", "bug fix", "typo"],
-        "DOCUMENTATION 📚": ["documentation"]    
+        "DOCUMENTATION 📚 ": ["documentation"],
+        "OTHER CHANGES": ["..."]    
     },
     "template": {
         commit: ({ message, url, author, name }) => `- [${message}](${url}) - ${author ? `@${author}` : name}`,
